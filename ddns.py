@@ -7,8 +7,6 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 from tencentAPI.domainNameResolutionRecord import recordCreate
 from utils.getPublicNetworkIP import sohu_soip
-from apscheduler.schedulers.background import BackgroundScheduler
-
 
 def ddns_tencent():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))

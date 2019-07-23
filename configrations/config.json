@@ -1,0 +1,16 @@
+{
+  "Secret_ID": "your secret id",
+  "Secret_Key": "your secret key",
+  "domains": [
+    {
+      "name": "your domain",
+      "subdomains": [
+        {
+          "name": "your subdomain",
+          "record_type": "A",
+          "record_line": "默认"
+        }
+      ]
+    }
+  ]
+}
